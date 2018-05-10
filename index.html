@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="vn">
+<html lang="en">
 <head>
         <meta charset="utf-8" />
-        <title>Swdream's Blog</title>
+        <title>Swdream</title>
         <link rel="stylesheet" href="/theme/css/main.css" />
 
         <!--[if IE]>
@@ -12,26 +12,41 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <h1><a href="/">Swdream's Blog </a></h1>
+                <h1><a href="/">Swdream </a></h1>
                 <nav><ul>
-                    <li><a href="/category/misc.html">misc</a></li>
+                    <li><a href="/category/terraform.html">terraform</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="/test.html">Test</a></h1>
+                    <h1 class="entry-title"><a href="/introduction-to-terraform.html">Introduction to Terraform</a></h1>
 <footer class="post-info">
-        <abbr class="published" title="2016-06-28T00:00:00+07:00">
-                Published: T3 28 Tháng sáu 2016
+        <abbr class="published" title="2018-05-09T00:00:00+07:00">
+                Published: Wed 09 May 2018
         </abbr>
 
         <address class="vcard author">
                 By                         <a class="url fn" href="/author/swdream.html">swdream</a>
         </address>
-<p>In <a href="/category/misc.html">misc</a>.</p>
+<p>In <a href="/category/terraform.html">terraform</a>.</p>
 
-</footer><!-- /.post-info --><p>test blog</p>                </article>
+</footer><!-- /.post-info --><h1>1. What is Terraform ?</h1>
+<p>Terraform is a tool for building, updating and versioning infrastructure on cloud. Terraform can be used to interact with Amazon Cloud Services and Google Cloud Services.
+The infrastructure which Terraform can manage include low-level components such as compute instances, storage and networking, as well as high-level component as DNS entries, SaaS features ...</p>
+<h3>Infrastructure as code</h3>
+<p>Infrastructure is described using a high-level configuration syntax. And it is easy to shared.</p>
+<h3>Execution Plan</h3>
+<p>All steps will be planed before applying. Execution plan show what Terraform will do when you apply the news/changes things in your infrastructure.</p>
+<h1>2. Common helpful command lines</h1>
+<h3>Terraform init</h3>
+<p><code>terraform init</code> intinialize news or existing Terraform configuration.</p>
+<h3>Terraform plan</h3>
+<p><code>terraform plan</code> generates and show Execution Plan.</p>
+<h3>Terraform apply</h3>
+<p><code>terraform plan</code> builds or update infrastructure.</p>
+<p>For more information, running <code>terraform --help</code> or refer to https://www.terraform.io/docs/commands/index.html.</p>
+<p>Basicly, you can run 3 above commands when building your new infrastructure and it is enough.</p>                </article>
             </aside><!-- /#featured -->
         <section id="extras" class="body">
                 <div class="blogroll">
